@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.fotter{
+    border: solid 20px ;
+    border-color: gray;
+    height: 300px;
+}
+.info{
+    width: 250px;
+    height: 280px;
+    }
+    
+.logoo {
+    cursor: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 100px;
+  
+}
+
+.Fotter1{
+    
+    height: 30px;
+    width: 170px;
+    border: 1px solid  rgb(88, 82, 82);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.Fotter4{
+    
+    height: 50px;
+    width: 150px;
+    border: 1px solid  rgb(88, 82, 82);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+   margin-left: 400px;
+   margin-top: -140px;
+  
+   
+}
+.Fotter2{
+    
+    height: 30px;
+    width: 150px;
+    border: 1px solid  rgb(88, 82, 82);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+   
+   margin: -85px;
+  margin-top: -50px;
+  margin-left: 400px;
+   
+}
+
+.map{
+    margin-left: 900px;
+    margin-top: -60px;
+
+
+}
+.social-media{
+   display: flex;
+   margin-left: 1100px;
+   margin-top: 50px;
+}
+.foto4{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}

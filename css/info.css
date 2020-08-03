@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+
+.about1{
+    background-color:white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(pexels-photo-2047905.jpeg) no-repeat left;
+    background-size:60% ;
+    overflow: hidden;
+    padding: 100px 0;
+    
+    
+}
+.about2{
+    width: 50%;
+    float: right;
+    background-color: whitesmoke;
+    padding:150px ;
+}
+.about2 h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.text{
+    font-size: 13px;
+    color: brown;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.site{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 15px;
+
+}
