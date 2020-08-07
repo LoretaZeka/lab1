@@ -38,7 +38,6 @@ ul li a {
     padding: 0;
     width: 200px;
     height: 80px;
-   margin: 90px;
 }
 
 .menu{
@@ -111,17 +110,18 @@ ul li a {
     border-radius: 5px;
     margin-top: -10px;
 }
-
-
-    
-
-h1{
-    text-align: center;
-    margin-top: -50px;
-}
-.log1{
+.menu-6{margin: 20px;
     height: 30px;
     width: 150px;
     border: 1px solid  rgb(88, 82, 82);
-    margin-left: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+h1{
+    text-align: center;
 }

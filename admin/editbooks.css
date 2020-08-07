@@ -38,7 +38,6 @@ ul li a {
     padding: 0;
     width: 200px;
     height: 80px;
-   margin: 90px;
 }
 
 .menu{
@@ -113,15 +112,11 @@ ul li a {
 }
 
 
-    
 
-h1{
+.book{
+    border: 1px solid black;
     text-align: center;
-    margin-top: -50px;
-}
-.log1{
-    height: 30px;
-    width: 150px;
-    border: 1px solid  rgb(88, 82, 82);
-    margin-left: 200px;
+    width: 50%;
+    background-color: crimson;
+    margin-left: 300px;
 }

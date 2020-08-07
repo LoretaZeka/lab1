@@ -23,7 +23,7 @@
                 <li><a href="books.php">Books</a></li>
                 </div>
                 <div class="menu-5">
-                <li><a href="shop.php">Shop</a></li>
+                <li><a href="shop1.php">Shop</a></li>
             </div>
                 <div class="menu-4">
                 <li><a href="acc.php">LogIn</a></li>

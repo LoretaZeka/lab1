@@ -1,35 +1,34 @@
 <html>
-    <link href="style.css" rel="stylesheet" >
+    <link href="css/style.css" rel="stylesheet" >
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"  ></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <body>
-        <header>
-            <nav>
+    <nav>
     <ul class="nav_links">
         <li><a>Checkout</a</li>
          <li><a>Wishlist  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a> </li>
-        <li><a>Account &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a</li>
+        <li><a  href ="acc.php">Account &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a</li>
        
              </ul>
-            <img class="logo"src="LogoMakr_7lK4DC.png">
+            <img class="logo"src="foto/LogoMakr_7lK4DC.png">
             </nav>
            
 
             <div class="menu">
                 <div class="menu-1">
             <div class="menu-2"> 
-                <li><a>Home</a></li>
+                <li><a href="indexu.php">Home</a></li>
             </div>
                 <div class="menu-3">
-                <li><a>Text Books</a></li>
+                <li><a href="books.php">Books</a></li>
                 </div>
+                <div class="menu-5">
+                <li><a href="shop.php">Shop</a></li>
+            </div>
                 <div class="menu-4">
-                <li><a>E-Books</a></li>
+                <li><a href="index.php">LogOut</a></li>
             </div>
-            <div class="menu-5">
-                <li><a>Shop</a></li>
-            </div>
-           
+            
             </div>
             <div class="search-box">
                 <input type="text" placeholder="Type to search">
@@ -75,9 +74,7 @@
           
             <div class="sign-up">
                 <h6 >Join to read new Books</h6>
-            <div class="btn">
-                <input class="btn" type="button" name="" value="Sign up">
-            </div>
+            
         </div>
             
             

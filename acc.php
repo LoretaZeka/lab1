@@ -1,54 +1,34 @@
-<html>
-    <link href="css/acc.css" rel="stylesheet" >
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"  ></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <body>
-    <?php
-            include 'topmenu.php';
-        
- ?>
-         
-        
-        <div class="login">
-            
-    
+<!DOCTYPE html>
+<html lang="en">
 
-            <div class="containerss">
-      <p> <br>
-       LOG IN
-      <br>
- </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="css/acc.css">
+    <script defer src="js/LogInvalidation.js"></script>
+</head>
 
- 
-            <div class="content">
-                <div class="form">
-                    <form action="#" method="POST" onsubmit="return validate()" >
+<body>
 
-                        <label for="">Username: </label>
-                        <br>
-                        <input type="text" name="Username">
-                        <br>
-                        <label for="">Password: </label>
-                        <br>
-                        <input type="Password" name="Password">
-                        <br>
+<?php
+include 'topmenu.php';
+?>
 
-                        <input type="Submit" name="Submit" value="Log In" id="Submit">
-                        
-                        <li><a href="register.php">Dont have an account? Create one</a></li>
-                </div>
-            </div>
-        </div>
+<div class="containerss">
+    <p> <br>
+    LOG IN
+    <br>
+</div>
+
+
+<div class="content">
+<form onsubmit="return validate()" action="db/LogIndb.php" id="form" method="POST">
+            <label for="username">username: </label> <br>
+            <input type="text" id="username" placeholder="Your Username" name="username"><br>
+            <label for="password">password: </label> <br>
+            <input type="password" id="password" name="password" placeholder="Your Password" name="password"><br>
+            <input type="submit" id="submit" value="Log In" name="submit">
+            <li><a href="register.php">Dont have an account? Create one</a></li>
+        </form>
     </div>
-    <?php
-            include 'footer.php';
-        
- ?>
-         
-
- 
-    </div>
-    
-    
-
-</body>  </html>

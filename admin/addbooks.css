@@ -32,13 +32,13 @@ ul li a {
 
 }
 
-.logo {
+.logoo{
     cursor: none;
     margin: 0;
     padding: 0;
     width: 200px;
-    height: 80px;
-   margin: 90px;
+    height: 30px;
+    
 }
 
 .menu{
@@ -113,15 +113,20 @@ ul li a {
 }
 
 
-    
-
 h1{
     text-align: center;
-    margin-top: -50px;
+   
 }
-.log1{
-    height: 30px;
-    width: 150px;
-    border: 1px solid  rgb(88, 82, 82);
-    margin-left: 200px;
+.content{
+
+margin-top: 100px;
+border: 1px solid black;
+width: 500px;
+height: 200px;
+margin-left: 400px;
+text-align: center;
+background-color: blanchedalmond;
+}
+#imagepath{
+    margin-left: 70px;
 }

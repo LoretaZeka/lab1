@@ -1,7 +1,7 @@
 
 <?php 
 
-include 'config.php';
+include 'db/config.php';
 
 
 if(isset($_POST['Submit'])){
@@ -34,9 +34,9 @@ if(isset($_POST['Submit'])){
         header("location:register.php?InvalidForm");
     }
     else{
-        $sql ="INSERT INTO users (firstname,lastname,email,phonenumber,username,password) values('$name','$surname','$email','$phone','$username','$password');";
+        $sql ="INSERT INTO users (firstname,lastname,email,phonenumber,username,password,admin) values('$name','$surname','$email','$phone','$username','$password',0);";
         $db->query($sql);
-        header("location:index.php");
+        header("location:user/indexu.php");
     }
 
 }else{
