@@ -13,8 +13,7 @@
 </head>
 
 <body>
-    <div class="maincontanier">
-        
+    
            <div class="container">
            <div class="content">
 
@@ -45,7 +44,7 @@
          
         </div>
         <?php  } ?>
-    </div>
+    
             </div>
          
 </body>

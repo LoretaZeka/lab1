@@ -41,7 +41,7 @@
                 <li><a href="removeuser.php">RemoveUser</a></li>
             </div>
             <div class="menu-6">
-                <li><a href="removeuser.php">Sign Out</a></li>
+                <li><a href="../index.php">Sign Out</a></li>
             </div>
             
          </div>

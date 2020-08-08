@@ -1,6 +1,7 @@
 <html>
-    <link href="tomenua.css" rel="stylesheet" >
-    
+    <link href="css/topmenu.css" rel="stylesheet" >
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"  ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <body>
         <header>
             <nav>
@@ -17,26 +18,21 @@
             <div class="menu">
                 <div class="menu-1">
             <div class="menu-2"> 
-                <li><a href="home.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
             </div>
                 <div class="menu-3">
-                <li><a href="editbooks.php"> Edit Books</a></li>
+                <li><a href="books.php">Books</a></li>
                 </div>
                 <div class="menu-5">
-                <li><a href="addbooks.php">Add Books</a></li>
+                <li><a href="shop.php">Shop</a></li>
             </div>
                 <div class="menu-4">
-                <li><a href="removebooks.php">Remove Books</a></li>
+                <li><a href="acc.php">LogIn</a></li>
             </div>
             
             </div>
-                <div class="menu-4">
-                <li><a href="removeuser.php">Remove User</a></li>
-            </div>
-            </div>
-            </div>
-                <div class="menu-4">
-                <li><a href="index.php">LogOut</a></li>
+            <div class="search-box">
+                <input type="text" placeholder="Type to search">
             </div>
             </div>
         </header>

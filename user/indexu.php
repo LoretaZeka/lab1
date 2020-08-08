@@ -1,5 +1,5 @@
 <html>
-    <link href="css/style.css" rel="stylesheet" >
+    <link href="style.css" rel="stylesheet" >
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"  ></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <body>

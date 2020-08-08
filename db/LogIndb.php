@@ -39,7 +39,7 @@ require "config.php";
                         if($_SESSION['admin'] == '1'){
                             header("location:../admin/indexa.php");
                         }else{
-                            header("location:../user/index.php");  
+                            header("location:../user/indexu.php");  
                        
                         }
 

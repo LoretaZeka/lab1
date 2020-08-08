@@ -1,16 +1,15 @@
 <html>
-    <link href="css/index.css" rel="stylesheet" >
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"  ></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
     <body>
+    <link href="index.css" rel="stylesheet" >
         <header>
             <nav>
-    <ul class="nav_links">
-        
+    <ul class="nav">
+    <img class="logo"src="foto/LogoMakr_7lK4DC.png">
         <li><a  href ="acc.php">Account &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a</li>
+         </ul>
        
-             </ul>
-            <img class="logo"src="foto/LogoMakr_7lK4DC.png">
             </nav>
            
 
@@ -19,12 +18,7 @@
             <div class="menu-2"> 
                 <li><a href="index.php">Home</a></li>
             </div>
-                <div class="menu-3">
-                <li><a href="books.php">Books</a></li>
-                </div>
-                <div class="menu-5">
-                <li><a href="shop1.php">Shop</a></li>
-            </div>
+                
                 <div class="menu-4">
                 <li><a href="acc.php">LogIn</a></li>
             </div>
@@ -49,8 +43,8 @@
             <div class="foto">
                 <img class="foto1"src="foto/libra1.jpg" alt="foto1">
                 <img class="foto1"src="foto/libra2.jpg" alt="foto1">
-                <img class="foto1"src="foto/libra3.jpg" alt="foto1">
-                <img class="foto1"src="foto/libra4.jpg" alt="foto1">
+                <img class="foto1"src="foto/libra1.jpg" alt="foto1">
+                <img class="foto1"src="foto/libra2.jpg" alt="foto1">
                 <img class="foto1"src="foto/libra5.jpg" alt="foto1">
 
 
@@ -79,35 +73,36 @@
 
         </div>
             
-            
-            <div class="shop">
+            <div class="shopp">
+             <div class="shop">
                
                 
             
                 <div class="Shop-1"> 
                     <li><a>New Arrivals</a></li>
-                    <img class="foto2"src="foto/libra3.jpg" alt="foto2">
-                    <img class="foto2"src="foto/libra4.jpg" alt="foto2">
+                    <img class="foto2"src="foto/libra1.jpg" alt="foto2">
+                    <img class="foto2"src="foto/libra2.jpg" alt="foto2">
                     <img class="foto2"src="foto/libra5.jpg" alt="foto2">
                     
                 </div>
                
                 <div class="Shop-2"> 
                     <li><a>Featured Products</a></li>
-                    <img class="foto2"src="foto/libra3.jpg" alt="foto2">
-                    <img class="foto2"src="foto/libra4.jpg" alt="foto2">
+                    <img class="foto2"src="foto/libra1.jpg" alt="foto2">
+                    <img class="foto2"src="foto/libra2.jpg" alt="foto2">
                     <img class="foto2"src="foto/libra5.jpg" alt="foto2">
                     
                 </div>
                 
                 <div class="Shop-3"> 
                     <li><a> Staff Picks </a></li>
-                    <img class="foto2"src="foto/libra3.jpg" alt="foto2">
-                    <img class="foto2"src="foto/libra4.jpg" alt="foto2">
+                    <img class="foto2"src="foto/libra1.jpg" alt="foto2">
+                    <img class="foto2"src="foto/libra2.jpg" alt="foto2">
                     <img class="foto2"src="foto/libra5.jpg" alt="foto2">
                     
                 </div>
-            </div>
+              </div>
+</div>
 
             
 

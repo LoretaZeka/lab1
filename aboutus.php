@@ -1,5 +1,5 @@
 <html>
-    <link href="css/aboutus.css" rel="stylesheet" >
+    <link href="aboutus.css" rel="stylesheet" >
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"  ></script>
     
     <body>
@@ -9,10 +9,10 @@
  ?>
         
         <div class="A">
-            <h3>Who we are?
+        <h3>Who we are?
                 <br>
                 ABOUT US</h3>
-                <h4>Home - About us</h4>
+               
         </div>
         <div class="B">
             <img class="Foto1"src="foto/LogoMakr_7lK4DC.png">
@@ -34,24 +34,25 @@
         </div>
         <div class="D">
           
-        <h3>Our Team</h3>
-        <img class="foto2"src="foto/f1.jpg">
+        <h1>Our Team</h1>
+      
+         <img class="foto2"src="foto/f1.jpg">
         <img class="foto2"src="foto/f2.jpg">
         <img class="foto2"src="foto/f3.jpg">
-    
+
     <div class="ff">
-<DIV class="F">
+<div class="F">
     <li><a>EmriMbiemri</a></li>
     <li><a>Pozita</a></li>
-</DIV>
-<DIV class="F">
+</div>
+<div class="F">
     <li><a>EmriMbiemri</a></li>
     <li><a>Pozita</a></li>
-</DIV>
-<DIV class="F">
+</div>
+<div class="F">
     <li><a>EmriMbiemri</a></li>
     <li><a>Pozita</a></li>
-</DIV>
+</div>
 </div>
 
 
