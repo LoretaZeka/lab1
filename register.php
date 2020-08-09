@@ -1,5 +1,5 @@
 <html>
-    <link href="register.css" rel="stylesheet" >
+    <link href="css/register.css" rel="stylesheet" >
   
     
     <body>

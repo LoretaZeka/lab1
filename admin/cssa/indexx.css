@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(255, 225, 219);
 }
 
 nav {
     width: 100%;
     height: 80px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(255, 225, 219);
 }
 
 
@@ -32,19 +32,18 @@ ul li a {
 
 }
 
-.logoo{
+.logo {
     cursor: none;
     margin: 0;
     padding: 0;
     width: 200px;
-    height: 30px;
-    
+    height: 80px;
 }
 
 .menu{
     width: 100%;
     height: 80px;
-    background-color:rgb(194, 194, 247);
+    background-color: rgb(253, 200, 190);
 }
 
 .menu-1 {
@@ -111,22 +110,19 @@ ul li a {
     border-radius: 5px;
     margin-top: -10px;
 }
-
-
+.menu-6{margin: 20px;
+    height: 30px;
+    width: 150px;
+    border: 1px solid  rgb(88, 82, 82);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -10px;
+}
 h1{
     text-align: center;
-   
-}
-.content{
-
-margin-top: 100px;
-border: 1px solid black;
-width: 500px;
-height: 200px;
-margin-left: 400px;
-text-align: center;
-background-color: blanchedalmond;
-}
-#imagepath{
-    margin-left: 70px;
+   background-color:  rgb(255, 225, 219);
 }

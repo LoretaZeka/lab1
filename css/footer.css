@@ -3,13 +3,15 @@
     padding: 0;
 }
 .fotter{
-    border: solid 20px ;
-    border-color: gray;
+    border: solid 2px ;
+    border-color: white;
     height: 300px;
+    background-color:rgb(253, 200, 190);
 }
+
 .info{
     width: 250px;
-    height: 280px;
+    height: 100px;
     }
     
 .logoo {
@@ -70,8 +72,8 @@
 }
 
 .map{
-    margin-left: 900px;
-    margin-top: -60px;
+    margin-left: 1000px;
+    margin-top: -45px;
 
 
 }

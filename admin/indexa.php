@@ -4,7 +4,7 @@
 ?>
 
 <html>
-    <link href="indexx.css" rel="stylesheet" >
+    <link href="cssa/indexx.css" rel="stylesheet" >
  
     
     <body>
@@ -13,7 +13,7 @@
     <ul class="nav_links">
    
         <li><a>Wishlist  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a> </li>
-        <img class="logo"src="LogoMakr_7lK4DC.png">
+        <img class="logo"src="fotoo/LogoMakr_7lK4DC.png">
         
              </ul>
              

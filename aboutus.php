@@ -1,5 +1,5 @@
 <html>
-    <link href="aboutus.css" rel="stylesheet" >
+    <link href="css/aboutus.css" rel="stylesheet" >
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"  ></script>
     
     <body>
@@ -36,9 +36,9 @@
           
         <h1>Our Team</h1>
       
-         <img class="foto2"src="foto/f1.jpg">
+         <img class="foto2"src="foto/f2.jpg">
         <img class="foto2"src="foto/f2.jpg">
-        <img class="foto2"src="foto/f3.jpg">
+        <img class="foto2"src="foto/f2.jpg">
 
     <div class="ff">
 <div class="F">
@@ -59,7 +59,7 @@
         </div>
         <div class="E"> 
             <div class="ee">
-            <strong>Our History</strong>
+            <h2>Our History</h2>
            
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, unde mollitia quisquam tempore

@@ -1,8 +1,8 @@
 <html>
-    <link href="style.css" rel="stylesheet" >
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"  ></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="cssu/style.css" rel="stylesheet" >
+    
     <body>
+        <header>
     <nav>
     <ul class="nav_links">
         <li><a>Checkout</a</li>
@@ -10,7 +10,7 @@
         <li><a  href ="acc.php">Account &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a</li>
        
              </ul>
-            <img class="logo"src="foto/LogoMakr_7lK4DC.png">
+            <img class="logo"src="fotou/LogoMakr_7lK4DC.png">
             </nav>
            
 
@@ -23,10 +23,10 @@
                 <li><a href="books.php">Books</a></li>
                 </div>
                 <div class="menu-5">
-                <li><a href="shop.php">Shop</a></li>
+                <li><a href="shop1.php">Shop</a></li>
             </div>
                 <div class="menu-4">
-                <li><a href="index.php">LogOut</a></li>
+                <li><a href="../index.php">LogOut</a></li>
             </div>
             
             </div>
@@ -39,21 +39,21 @@
             <div class="Books">
                 <div class="Books-1">
                     <div class="Books-2">
-                <li><a>Best Selling</a></li>
+                <li><a href="shop1.php">Best Selling</a></li>
             </div>
             <div class="Books-3">
-                <li><a>E-Books</a></li>
+                <li><a href="shop1.php">E-Books</a></li>
                 </div>
                 <div class="Books-4">
-                <li><a>Text-Books</a></li>
+                <li><a href="shop1.php">Text-Books</a></li>
             </div>
             </div>
             <div class="foto">
-                <img class="foto1"src="libra1.jpg" alt="foto1">
-                <img class="foto1"src="libra2.jpg" alt="foto1">
-                <img class="foto1"src="libra3.jpg" alt="foto1">
-                <img class="foto1"src="libra4.jpg" alt="foto1">
-                <img class="foto1"src="libra5.jpg" alt="foto1">
+                <img class="foto1"src="fotou/libra1.jpg" alt="foto1">
+                <img class="foto1"src="fotou/libra2.jpg" alt="foto1">
+                <img class="foto1"src="fotou/libra1.jpg" alt="foto1">
+                <img class="foto1"src="fotou/libra5.jpg" alt="foto1">
+                <img class="foto1"src="fotou/libra2.jpg" alt="foto1">
 
 
             </div>
@@ -76,7 +76,7 @@
                 <h6 >Join to read new Books</h6>
             
         </div>
-            
+            <div class="shopp">
             
             <div class="shop">
                
@@ -84,33 +84,33 @@
             
                 <div class="Shop-1"> 
                     <li><a>New Arrivals</a></li>
-                    <img class="foto2"src="libra3.jpg" alt="foto2">
-                    <img class="foto2"src="libra4.jpg" alt="foto2">
-                    <img class="foto2"src="libra5.jpg" alt="foto2">
+                    <img class="foto2"src="fotou/libra1.jpg" alt="foto2">
+                    <img class="foto2"src="fotou/libra5.jpg" alt="foto2">
+                    <img class="foto2"src="fotou/libra2.jpg" alt="foto2">
                     
                 </div>
                
                 <div class="Shop-2"> 
                     <li><a>Featured Products</a></li>
-                    <img class="foto2"src="libra3.jpg" alt="foto2">
-                    <img class="foto2"src="libra4.jpg" alt="foto2">
-                    <img class="foto2"src="libra5.jpg" alt="foto2">
+                    <img class="foto2"src="fotou/libra5.jpg" alt="foto2">
+                    <img class="foto2"src="fotou/libra1.jpg" alt="foto2">
+                    <img class="foto2"src="fotou/libra2.jpg" alt="foto2">
                     
                 </div>
                 
                 <div class="Shop-3"> 
                     <li><a> Staff Picks </a></li>
-                    <img class="foto2"src="libra3.jpg" alt="foto2">
-                    <img class="foto2"src="libra4.jpg" alt="foto2">
-                    <img class="foto2"src="libra5.jpg" alt="foto2">
+                    <img class="foto2"src="fotou/libra2.jpg" alt="foto2">
+                    <img class="foto2"src="fotou/libra4.jpg" alt="foto2">
+                    <img class="foto2"src="fotou/libra2.jpg" alt="foto2">
                     
                 </div>
             </div>
 
-            
+</div>
 
             <div class="fotter">
-                <img class="logoo"src="LogoMakr_7lK4DC.png">
+                <img class="logoo"src="fotou/LogoMakr_7lK4DC.png">
                 <div class="Fotter1">
                     <li><a>Kosov</a></li>
                 </div>
@@ -140,9 +140,9 @@
             </div>
             <div class="social-media">
                 
-                <img class="foto4"src="libra1.jpg" alt="foto4">
-                <img class="foto4"src="libra2.jpg" alt="foto4">
-                <img class="foto4"src="libra3.jpg" alt="foto4">
+                <img class="foto4"src="fotou/libra1.jpg" alt="foto4">
+                <img class="foto4"src="fotou/libra2.jpg" alt="foto4">
+                <img class="foto4"src="fotou/libra3.jpg" alt="foto4">
 
             </div>
                 </div>

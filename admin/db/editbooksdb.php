@@ -19,11 +19,11 @@
   $sql="UPDATE books SET titulli ='$titulli', imagepath = '$finaldestination', autori = '$autori' ,cmimi=$cmimi WHERE ID = $ID;";
         $db->query($sql);
 
-        header('Location:editBooks.php?super');
+        header('Location:./editBooks.php?super');
         
 
     }else{
-        header('Location:editBooks.php?error');
+        header('Location:./editBooks.php?error');
     }
     
 ?>

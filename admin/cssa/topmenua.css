@@ -10,7 +10,7 @@ body {
 nav {
     width: 100%;
     height: 80px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(255, 225, 219);
 }
 
 
@@ -32,19 +32,18 @@ ul li a {
 
 }
 
-.logo {
+.logoo {
     cursor: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 150px;
     height: 80px;
-   margin: 90px;
 }
 
 .menu{
     width: 100%;
     height: 80px;
-    background-color:rgb(194, 194, 247);
+    background-color:rgb(253, 200, 190);
 }
 
 .menu-1 {
@@ -112,16 +111,14 @@ ul li a {
     margin-top: -10px;
 }
 
-
-    
-
-h1{
+.search-box input{
+    height: 35px;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: -50px;
-}
-.log1{
-    height: 30px;
-    width: 150px;
-    border: 1px solid  rgb(88, 82, 82);
+    border-radius: 5px;
     margin-left: 200px;
+
+
 }

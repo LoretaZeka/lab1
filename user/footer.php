@@ -1,5 +1,5 @@
 <html>
-    <link href="css/footer.css" rel="stylesheet" >
+    <link href="../css/footer.css" rel="stylesheet" >
     
     <body>
     <div class="fotter">

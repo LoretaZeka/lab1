@@ -1,19 +1,19 @@
-INDEX
+
 * {
     margin: 0;
     padding: 0;
+ 
 }
 
-body {
-    background-color: white;
+.body {
+    background-color: rgb(255, 219, 219);
 }
 
-nav {
+.nav {
     width: 100%;
     height: 80px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(255, 225, 219);
 }
-
 
 
 ul li {
@@ -44,7 +44,7 @@ ul li a {
 .menu{
     width: 100%;
     height: 80px;
-    background-color:rgb(194, 194, 247);
+    background-color:rgb(253, 200, 190);
 }
 
 .menu-1 {
@@ -72,19 +72,6 @@ ul li a {
     margin-top: -10px;
 
 }
-.menu-3{
-    margin: 20px;
-    height: 30px;
-    width: 150px;
-    border: 1px solid  rgb(88, 82, 82);
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: -10px;
-}
 
 .menu-4{
     margin: 20px;
@@ -99,26 +86,13 @@ ul li a {
     border-radius: 5px;
     margin-top: -10px;
 }
-.menu-5{margin: 20px;
-    height: 30px;
-    width: 150px;
-    border: 1px solid  rgb(88, 82, 82);
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: -10px;
-}
-
 
 .Books{
   
     border-color:gray;
     width: 100%;
     height: 450px;
-    background-color:white;
+    background-color:rgb(255, 225, 219);
 }
 .Books-1{
     list-style: none;
@@ -135,7 +109,7 @@ ul li a {
     height: 30px;
     width: 120px;
     border: 1px solid  rgb(88, 82, 82);
-    background-color: rgb(88, 82, 82);
+    background-color:white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,7 +122,7 @@ ul li a {
     height: 30px;
     width: 120px;
     border: 1px solid  rgb(88, 82, 82);
-    background-color: rgb(88, 82, 82);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +135,7 @@ ul li a {
     height: 30px;
     width: 120px;
     border: 1px solid  rgb(88, 82, 82);
-    background-color: rgb(88, 82, 82);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,7 +160,7 @@ ul li a {
     
     width: 100%;
     height: 80px;
-    background-color:rgb(194, 194, 247);
+    background-color:rgb(253, 200, 190);
     margin-top: -20px;
 }
 h6{
@@ -201,41 +175,43 @@ h6{
     height: 35px;
     
 }
+.shopp{
+    background-color: rgb(255, 225, 219);
+}
 .shop{
-    width: 70%;
-    height: 600px;
-    background-color:white;
+    width: 60%;
+    height: 500px;
     display: flex;
- 
-        list-style: none;
-   
+    list-style: none;
     margin-top: 40px;
     margin-left: 190px;
     text-align: center;
-    
-    
+    background-color: rgb(255, 225, 219);
+
     
 }
-
 
 
 .Shop-1{
-    height: 500px;
+    height: 490px;
     border: 1px solid black;
     width: 300px;
+    background-color: white;
    
 }
 .Shop-2{
-    height: 500px;
+    height: 490px;
     border: 1px solid black;
     width: 300px;
    margin-left: 70px;
+   background-color: white;
 }
 .Shop-3{
-    height: 500px;
+    height: 490px;
     border: 1px solid black;
     width: 300px;
     margin-left: 70px;
+    background-color: white;
 }
 .foto2{
     height: 150px;

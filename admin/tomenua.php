@@ -1,45 +1,51 @@
 <html>
-    <link href="tomenua.css" rel="stylesheet" >
-    
-    <body>
-        <header>
-            <nav>
-    <ul class="nav_links">
-        <li><a>Checkout</a</li>
-         <li><a>Wishlist  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a> </li>
-        <li><a  href ="acc.php">Account &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a</li>
-       
-             </ul>
-            <img class="logo"src="foto/LogoMakr_7lK4DC.png">
-            </nav>
-           
+<link href="cssa/topmenua.css" rel="stylesheet">
 
-            <div class="menu">
-                <div class="menu-1">
-            <div class="menu-2"> 
-                <li><a href="home.php">Home</a></li>
-            </div>
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <img class="logoo" src="fotoo/LogoMakr_7lK4DC.png">
+                <li><a>Wishlist &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a> </li>
+
+
+            </ul>
+
+
+        </nav>
+
+
+
+        <div class="menu">
+
+            <div class="menu-1">
+                <div class="menu-2">
+                    <li><a href="indexa.php">Home</a></li>
+                </div>
+
                 <div class="menu-3">
-                <li><a href="editbooks.php"> Edit Books</a></li>
+                    <li><a href="addbooks.php">Add Books</a></li>
+
+                </div>
+
+                <div class="menu-4">
+                    <li><a href="editbooks.php">Edit Books</a></li>
                 </div>
                 <div class="menu-5">
-                <li><a href="addbooks.php">Add Books</a></li>
-            </div>
+                    <li><a href="removeuser.php">RemoveUser</a></li>
+                </div>
                 <div class="menu-4">
-                <li><a href="removebooks.php">Remove Books</a></li>
-            </div>
-            
-            </div>
+                    <li><a href="removebooks.php">Remove Books</a></li>
+                </div>
                 <div class="menu-4">
-                <li><a href="removeuser.php">Remove User</a></li>
+                    <li><a href="../index.php">LogOut</a></li>
+                </div>
             </div>
-            </div>
-            </div>
-                <div class="menu-4">
-                <li><a href="index.php">LogOut</a></li>
-            </div>
-            </div>
-        </header>
-    </ul>
-    </body>
-    </html>
+
+        </div>
+    
+    </header>
+</body>
+
+</html>

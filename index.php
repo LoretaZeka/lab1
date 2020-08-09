@@ -2,7 +2,7 @@
     
     
     <body>
-    <link href="index.css" rel="stylesheet" >
+    <link href="css/index.css" rel="stylesheet" >
         <header>
             <nav>
     <ul class="nav">

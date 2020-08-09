@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(255, 225, 219);
 }
 
 nav {
     width: 100%;
     height: 80px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(255, 225, 219);
 }
 
 
@@ -32,18 +32,20 @@ ul li a {
 
 }
 
-.logo {
+.logoo{
     cursor: none;
     margin: 0;
     padding: 0;
     width: 200px;
-    height: 80px;
+    height: 60px;
+    margin-top: 10px;
+    
 }
 
 .menu{
     width: 100%;
     height: 80px;
-    background-color:rgb(194, 194, 247);
+    background-color:rgb(253, 200, 190);
 }
 
 .menu-1 {
@@ -112,11 +114,22 @@ ul li a {
 }
 
 
-
-.book{
-    border: 1px solid black;
+h1{
     text-align: center;
-    width: 50%;
-    background-color: crimson;
-    margin-left: 300px;
+    margin-top: 50px;
+   
+}
+.content{
+
+margin-top: 100px;
+border: 1px solid black;
+border-radius: 10px;
+width: 500px;
+height: 200px;
+margin-left: 500px;
+text-align: center;
+background-color: white;
+}
+#imagepath{
+    margin-left: 70px;
 }

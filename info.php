@@ -1,12 +1,12 @@
 <html>
-    <link href="info.css" rel="stylesheet" >
+    <link href="css/info.css" rel="stylesheet" >
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"  ></script>
   
     <body>
     <?php
             include 'topmenu.php';
         
- ?>
+    ?>
         
         <div class="about1">
             <div class="about2">
@@ -45,12 +45,14 @@
         
             </div>
            
-        
-            <?php
+         </div>
+           
+           <?php
             include 'footer.php';
         
             ?>
         
-        </div>
-        </body>
-        </html>
+       
+    </body>
+    
+</html>

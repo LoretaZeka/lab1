@@ -1,0 +1,26 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  rgb(253, 200, 190);
+}
+
+.content{
+    background-color: rgb(255, 225, 219);
+    height: 600px;
+}
+
+.book{
+ 
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    background-color: white;
+    margin-left: 300px;
+}
