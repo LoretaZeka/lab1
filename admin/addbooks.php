@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+    include '../db\config.php';
+
+ ?> 
 <html lang="en">
 
 <head>
@@ -60,7 +64,7 @@
     </div>
     <div class="content">
 
-        <form action="addbooksdb.php" method="POST" enctype="multipart/form-data">
+        <form action="db/addbooksdb.php" method="POST" enctype="multipart/form-data">
             <label for="">Titulli: </label> <br>
             <input type="text" id="titulli" name="titulli" required>
             <br>

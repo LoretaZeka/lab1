@@ -31,9 +31,7 @@
             </div>
             
             </div>
-            <div class="search-box">
-                <input type="text" placeholder="Type to search">
-            </div>
+            
             </div>
         </header>
     </ul>

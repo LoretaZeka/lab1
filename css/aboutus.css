@@ -54,13 +54,14 @@ h1{
 }
 
 
-#foto2{
+.foto2{
     height: 100px;
     border-radius: 89px;
-    width: 50px;
+    width: 100px;
     margin: 100px;
     display: inline-flex;
-   margin-left: -20px;
+    margin-left: 200px;
+   
   
 }
 .F{
@@ -75,6 +76,7 @@ h1{
 }
 .ff{
 display: flex;
+margin-top: 450px;
 
 }
 .E{
@@ -94,3 +96,24 @@ display: flex;
     float:right;
    margin-top: -260px;
 }
+@media only screen and (max-width: 1024px){
+    .Foto1{
+        margin-right: 20px;
+    }
+    .C{
+        margin-top: -180px;
+        margin-right: 20px;
+    }
+    h1{
+        margin: 0px;
+    }
+.foto2{
+   flex-direction: row;
+   margin: 90px;
+}
+.F{
+    margin:60px;
+    margin-top: -500px;
+}
+}
+

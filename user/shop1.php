@@ -1,7 +1,9 @@
+<?php 
+include '../db/config.php'
+?>
 <html>
+
     <link href="shop1.css" rel="stylesheet" >
-    
-  
     <body>
     <header>
     <nav>
@@ -31,15 +33,14 @@
             </div>
             
             </div>
-            <div class="search-box">
-                <input type="text" placeholder="Type to search">
-            </div>
+           
             </div>
         </header>
     <div class="g1">
         <div class="g">
                 <div class=g2>
                 <li> <a href="error.php">  Fantasy</a></li>
+                
                 </div>
                 <div class=g2>
                 <li> <a href="error.php">  Romance</a></li>
@@ -61,17 +62,32 @@
                 </div>
                 
                
-            </div>
-            <div class="gg">
+     </div>
+             <!-- <div class="gg">
             <div class="foto">
                  <img class="foto1"src="fotou/libra1.jpg" alt="foto1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 
                 <img class="foto2"src="fotou/libra2.jpg" alt="foto2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img class="foto3"src="fotou/libra1.jpg" alt="foto3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img class="foto4"src="fotou/libra1.jpg" alt="foto4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img class="foto5"src="fotou/libra1.jpg" alt="foto5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                
             </div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="bb">
+            <p>LibraI 8$</p>
+            </div>
+            <div class="bb">
+            <p>LibraI 8$</p>
+            </div>
+            <div class="bb">
+            <p>LibraI 8$</p>
+            </div>
+            <div class="bb">
+            <p>LibraI 8$</p>
+            </div>
+            <div class="bb">
+            <p>LibraI 8$</p>
+            </div>
              <div class=titulii>
             <div class="foto">
                 <img class="foto1"src="fotou/libra1.jpg" alt="foto1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -81,8 +97,35 @@
                 <img class="foto1"src="fotou/libra5.jpg" alt="foto1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                
 
+            </div>  -->
+     <div class="content">
+
+        <?php
+
+
+        $sql="SELECT * FROM books ORDER BY ID desc;";
+        $results=$db->query($sql);
+
+        while($row=mysqli_fetch_assoc($results)){
+        
+            ?>
+            <div class="book">
+
+                    <div id="titulli">
+                        <p><?php echo $row['titulli'];?></p>
+                    </div>
+                    <div id="image"><img src="../<?php echo $row['imagepath'];?>" alt=""width="100px";></div>
+                    <div id="autori">
+                        <p><?php echo $row['autori'];?> </p>
+                    </div> 
+                    <div id="cmimi">
+                    <p><?php echo $row['cmimi'];?> </p>
+                    </div>
+                
+                <?php  } ?>
             </div>
+    </div>
 </div>
-</div>
+
 </body>
 </html>

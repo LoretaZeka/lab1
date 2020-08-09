@@ -22,11 +22,14 @@ if(isset($_POST['submit'])){
         $sql="INSERT INTO books (titulli,imagepath,autori,cmimi) values ('$titulli', '$finaldestination', '$autori',$cmimi);";
              $db->query($sql);
      
-             header('Location:./addbooks.php');
-         }
+       header('Location:../addbooks.php');
+    }
          else{
-         header('Location:./addbooks.php?error');
+         header('Location:../addbooks.php?error');
          }
+
+    
      
     
 }
+?>

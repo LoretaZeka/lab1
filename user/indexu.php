@@ -30,9 +30,7 @@
             </div>
             
             </div>
-            <div class="search-box">
-                <input type="text" placeholder="Type to search">
-            </div>
+           
             </div>
         </header>
 
@@ -49,7 +47,7 @@
             </div>
             </div>
             <div class="foto">
-                <img class="foto1"src="fotou/libra1.jpg" alt="foto1">
+                <img class="foto1"src="fotou/foto/l1.png" alt="foto1">
                 <img class="foto1"src="fotou/libra2.jpg" alt="foto1">
                 <img class="foto1"src="fotou/libra1.jpg" alt="foto1">
                 <img class="foto1"src="fotou/libra5.jpg" alt="foto1">
@@ -57,18 +55,7 @@
 
 
             </div>
-            <div class="Books-5">
-             <li><a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No Questions Asked  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-         
-         
-                <li><a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beneath A Scarlet Sky &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
-               
-                <li><a>Time After Time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                
-                <li><a>Heartbreaker &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                
-                <li><a>Brother</a></li>
-            </div>
+           
         </div>
     </div>
           
@@ -140,8 +127,8 @@
             </div>
             <div class="social-media">
                 
-                <img class="foto4"src="fotou/libra1.jpg" alt="foto4">
-                <img class="foto4"src="fotou/libra2.jpg" alt="foto4">
+                <img class="foto4"src="foto/l1.png" alt="foto4">
+                <img class="foto4"src="foto/l1.png" alt="foto4">
                 <img class="foto4"src="fotou/libra3.jpg" alt="foto4">
 
             </div>

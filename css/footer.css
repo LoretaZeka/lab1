@@ -48,7 +48,7 @@
     align-items: center;
     text-align: center;
     border-radius: 5px;
-   margin-left: 400px;
+   margin-left: 300px;
    margin-top: -140px;
   
    
@@ -67,20 +67,22 @@
    
    margin: -85px;
   margin-top: -50px;
-  margin-left: 400px;
+  margin-left: 300px;
    
 }
 
 .map{
     margin-left: 1000px;
     margin-top: -45px;
+    float: right;
 
 
 }
 .social-media{
    display: flex;
-   margin-left: 1100px;
-   margin-top: 50px;
+   margin-left: 600px;
+   margin-top:150px;
+   
 }
 .foto4{
     width: 20px;

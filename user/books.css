@@ -115,12 +115,10 @@ ul li a {
     margin-top: -10px;
 }
 
-.descriptionn{
-    width: 600px;
-   background-color:  rgb(194, 173, 173);
-    
-}
+
+
  .description1{
+     width: 100%;
     background-color:  rgb(194, 173, 173);
 }
 .namee{
@@ -202,5 +200,22 @@ ul li a {
     margin-left: 400px;
     margin-top:-300px;
     border-radius: 20px;
+
+}
+@media only screen and (max-width: 1024px){
+    .AA{
+        float: right;
+       
+    }
+    .foto1{
+        margin-left: 75px;
+       
+    }
+    .about{
+        float: right;
+    }
+    .namee{
+        margin-left: 100px;
+    }
 
 }

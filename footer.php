@@ -33,9 +33,9 @@
             </div>
             <div class="social-media">
                 
-                <img class="foto4"src="foto/libra1.jpg" alt="foto4">
-                <img class="foto4"src="foto/libra2.jpg" alt="foto4">
-                <img class="foto4"src="foto/libra3.jpg" alt="foto4">
+                <img class="foto4"src="foto/l1.png" alt="foto4">
+                <img class="foto4"src="foto/l2.png" alt="foto4">
+                <img class="foto4"src="foto/l3.png" alt="foto4">
 
             </div>
                 </div>

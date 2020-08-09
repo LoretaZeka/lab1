@@ -241,6 +241,7 @@ h6{
     border: 1px solid black;
     width: 300px;
    margin-left: 70px;
+  
 }
 .Shop-3{
     height: 500px;
@@ -253,7 +254,7 @@ h6{
     display: block;
     width: 190px;
     margin: 5px;
-    margin-left: 40px;
+    
   
 }
 .fotter{
@@ -301,7 +302,7 @@ h6{
     align-items: center;
     text-align: center;
     border-radius: 5px;
-   margin-left: 400px;
+   margin-left: 300px;
    margin-top: -140px;
   
    
@@ -320,23 +321,54 @@ h6{
    
    margin: -85px;
   margin-top: -50px;
-  margin-left: 400px;
+  margin-left: 300px;
    
 }
 
 .map{
-    margin-left: 900px;
-    margin-top: -60px;
+    margin-left: 1000px;
+    margin-top: -45px;
+    float: right;
 
 
 }
 .social-media{
    display: flex;
-   margin-left: 1100px;
-   margin-top: 50px;
+   margin-left: 600px;
+   margin-top:150px;
+   
 }
 .foto4{
     width: 20px;
     height: 20px;
     margin: 10px;
 }
+@media only screen and (max-width: 1024px){
+    .Books-1{
+        margin-top: -450px;
+    }
+   
+    .foto1{
+      
+     margin: 10px;
+     margin-top: 100px;
+     margin-right: 30px;
+    }
+    .btn{
+        float: right;
+    }
+    .shop{
+        margin: 0px;
+        margin-right: 20px;
+ 
+    }
+   .Shop-1{
+     margin: 30px;
+       margin-top: -2px;
+       margin-right: 50px;
+ 
+   }
+   .Shop-2{
+       margin-right: 50px;
+   }
+ }

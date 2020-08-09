@@ -124,12 +124,14 @@ ul li a {
 }
 .g1{
     display: flex;
+    t
     
 }
 .g{
     
     height: 500px;
     width: 300px;
+   
 }
 .gg{
     border: 1px solid purple;
@@ -175,7 +177,16 @@ ul li a {
     width: 200px;
     column-width: 10px;
 }
-
-.titulli{
-    display: inline;
+.book{
+    flex-direction: column;
+    text-align: center;
 }
+#image{
+flex-direction: row;
+}
+@media only screen and (max-width: 1024px){
+    .g{
+        float: right;
+    }
+}
+

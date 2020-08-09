@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(255, 225, 219);
+    
 }
 
 nav {
@@ -132,4 +133,34 @@ background-color: white;
 }
 #imagepath{
     margin-left: 70px;
+}
+@media only screen and (max-width: 1024px){
+    .content{
+       margin: 105px;
+        
+
+    }
+    .menu-1{
+        margin:0px;
+    }
+    .menu-2{
+        width: 100px;
+       margin: 5px;
+       font-size: 15px;
+    }
+    .menu-3{
+        width: 100px;
+       margin: 5px;
+       font-size: 15px;
+    }
+    .menu-4{
+        width: 100px;
+       margin: 5px;
+       font-size: 15px;
+    }
+    .menu-5{
+        width: 100px;
+       margin: 5px;
+       font-size: 15px;
+    }
 }
